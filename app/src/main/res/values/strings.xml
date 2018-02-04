@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camera</string>
+    <string name="selecciona_imagen">Selecciona imagen</string>
+    <string name="gesti_n_de_la_imagen">GESTIÓN DE LA IMAGEN</string>
+    <string name="elegir_opcion">Selecciona una opción</string>
+
+</resources>
