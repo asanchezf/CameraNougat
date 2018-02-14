@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void inicializarControles() {
-        //Se quitan los Casting....
+        //Se quitan los Casting....y se hace otro commit
         imagen = findViewById(R.id.imgImagen);
         btn =  findViewById(R.id.btnImagen);
     }
