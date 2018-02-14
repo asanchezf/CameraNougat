@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void inicializarControles() {
+        //Se quitan los Casting....
         imagen = findViewById(R.id.imgImagen);
         btn =  findViewById(R.id.btnImagen);
     }
