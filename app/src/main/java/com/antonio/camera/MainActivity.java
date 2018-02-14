@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void inicializarControles() {
-        imagen = (ImageView) findViewById(R.id.imgImagen);
-        btn = (Button) findViewById(R.id.btnImagen);
+        imagen = findViewById(R.id.imgImagen);
+        btn =  findViewById(R.id.btnImagen);
     }
 
     private void gestionarImagen() {
