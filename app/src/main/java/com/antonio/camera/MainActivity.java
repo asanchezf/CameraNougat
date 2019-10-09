@@ -27,7 +27,7 @@ import com.greysonparrelli.permiso.Permiso;
 
 import java.io.File;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     private ImageView imagen;
     private Button btn;
@@ -191,8 +191,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void solicitarPermisos() {
-
-
         Permiso.getInstance().
                 requestPermissions(new Permiso.IOnPermissionResult() {
                                        @Override

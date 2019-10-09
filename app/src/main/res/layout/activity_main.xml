@@ -27,14 +27,16 @@ tools:context="com.antonio.camera.MainActivity">
     android:layout_below="@+id/textView"
     android:layout_centerHorizontal="true"/>
 
-<Button
-    android:id="@+id/btnImagen"
-    style="@android:style/Widget.Button.Inset"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:layout_below="@+id/imgImagen"
-    android:layout_marginTop="51dp"
-    android:text="@string/selecciona_imagen"/>
+    <Button
+        android:id="@+id/btnImagen"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgImagen"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="62dp"
+        android:text="@string/selecciona_imagen" />
 </RelativeLayout>
